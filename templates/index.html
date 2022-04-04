@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Nemo Bankruptcy Prediction</h1>
+        <form action="/" method="post">
+            <p>Please enter your ratio attr16 - r(gross profit + depreciation) / total liabilities: </p>
+            <p><input type="number" name="attr16"></p>
+            <p>Please enter your ratio attr25 - (equity - share capital) / total assets: </p>
+            <p><input type="number" name="attr25"></p>
+            <p>Please enter your ratio attr26 - (net profit + depreciation) / total liabilities: </p>
+            <p><input type="number" name="attr26"></p>
+            <p>Please enter your ratio attr34 - operating expenses / total liabilities: </p>
+            <p><input type="number" name="attr34"></p>
+            <p>Please enter your ratio attr41 - total liabilities / ((profit on operating activities + depreciation) * (12/365)): </p>
+            <p><input type="number" name="attr41"></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+        <p>Result : {{result1}}</p>
+    </body>
+</html>
